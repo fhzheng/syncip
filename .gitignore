@@ -1,0 +1,10 @@
+# Python
+*.py[cod]
+*.so
+*.egg
+dist
+build
+
+#Log file
+*.log
+

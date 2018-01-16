@@ -1,0 +1,35 @@
+{
+    "ipget":{
+       "describe": "ipecho base and token",
+       "uri": "",
+       "access_token":""
+    },
+    "file":{
+       "describe": "file to save current ip",
+       "record_file":"ip.txt"
+    },
+    "redis":{
+        "host": "localhost",
+        "port": 6379,
+        "db": 1
+    },
+    "mail":{
+       "describe": "mail configs",
+       "host_user":"",
+       "host_pwd":"",
+       "to":"",
+       "server_host":"",
+       "server_port":465
+    },
+    "dnspod":{
+       "describe": "dnspod configs",
+       "dp_token":"",
+       "dp_base":"https://dnsapi.cn",
+       "dp_name":"",
+       "dp_version":"",
+       "dp_domain":"",
+       "dp_mail":""
+    },
+    "sub_domain":"test"
+ }
+ 
